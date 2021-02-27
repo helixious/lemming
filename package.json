@@ -1,0 +1,29 @@
+{
+  "name": "lemming-express-api-limiter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config -r esm api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helixious/lemming.git"
+  },
+  "author": "sle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helixious/lemming/issues"
+  },
+  "homepage": "https://github.com/helixious/lemming#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
